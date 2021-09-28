@@ -22,6 +22,7 @@ En la siguiente animación podéis ver el detalle de como instalar una nueva pla
 
 Tras instalar la placa (se instalan archivos que contienen la configuración de placas de desarrollo basadas en ESP32, cadenas de compilación específicas y alguna herramienta de compilación que usa ESP32 y no otras placas Arduino), debemos añadirla al IDE. Esto se hace en el IDE de Arduino mediante el menú **Herramientas>Gestor de tarjetas** y buscando e instalando ESP32 (es un proceso que tarda varios minutos).
 (recuerda que para usar la placa, siempre debe estar seleccionada antes de verificar o subir el código a la placa).
+Si alguno de estos pasos te falla, puede que expressif, el fabricante del ESP32 haya cambiado algo. Esto puedes verificarlo en la siguiente página web: [Installación de ESP32 en Arduino por Expressif](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html)
 
 * ### Instalar una nueva librería
 Es probable que cuando uséis nuevo hardware (lector de tarjetas RFID,...) necesitéis instalar librerias específicas. A continuación te indico los pasos en una animación. De nuevo se enlaza un vídeo con información detallada al respecto.
