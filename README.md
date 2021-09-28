@@ -19,6 +19,7 @@ Aunque en principio mientras el IDE soporte el compilado de este tipo de código
 En la siguiente animación podéis ver el detalle de como instalar una nueva placa de prototipado (wemos, nodemcu, esp32...). La animación tiene un enlace a un vídeo más extenso donde se ve paso a paso la forma de instalar nuevas placas (en el vídeo se hace para una nodemcu, pero es identico para eSP32 salvo por la URL que debemos incluir). La URL del json que debéis incluir en el cuadro de texto para placas ESP32 es:
 **https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json**
 [![Instalar nueva placa de prototipado](https://j.gifs.com/APDP1z.gif)](https://www.youtube.com/watch?v=14jI7ineMzM)
+
 Tras instalar la placa (se instalan archivos que contienen la configuración de placas de desarrollo basadas en ESP32, cadenas de compilación específicas y alguna herramienta de compilación que usa ESP32 y no otras placas Arduino), debemos añadirla al IDE. Esto se hace en el IDE de Arduino mediante el menú **Herramientas>Gestor de tarjetas** y buscando e instalando ESP32 (es un proceso que tarda varios minutos).
 (recuerda que para usar la placa, siempre debe estar seleccionada antes de verificar o subir el código a la placa).
 
