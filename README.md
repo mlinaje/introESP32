@@ -27,7 +27,7 @@ La URL del json que debéis incluir en el cuadro de texto para placas ESP32 es:
 **https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json**
 [![Instalar nueva placa de prototipado](https://j.gifs.com/APDP1z.gif)](https://www.youtube.com/watch?v=14jI7ineMzM)
 
-Tras instalar la placa (se instalan archivos que contienen la configuración de placas de desarrollo basadas en ESP32, cadenas de compilación específicas y alguna herramienta de compilación que usa ESP32 y no otras placas Arduino), debemos añadirla al IDE. Esto se hace en el IDE de Arduino mediante el menú **Herramientas>Gestor de tarjetas** y buscando e instalando ESP32 (es un proceso que tarda varios minutos).
+Tras instalar la placa (se instalan archivos que contienen la configuración de placas de desarrollo basadas en ESP32, cadenas de compilación específicas y alguna herramienta de compilación que usa ESP32 y no otras placas Arduino), debemos añadirla al IDE. Esto se hace en el IDE de Arduino mediante el menú **Herramientas>Placa...>Gestor de tarjetas** y buscando e instalando ESP32 en el cuadro de diálogo que aparece (es un proceso que tarda varios minutos).
 (recuerda que para usar la placa, siempre debe estar seleccionada antes de verificar o subir el código a la placa).
 Si alguno de estos pasos te falla, puede que expressif, el fabricante del ESP32 haya cambiado algo. Esto puedes verificarlo en la [web oficial de expressif para ESP32 y Arduino](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html)
 
